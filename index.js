@@ -315,8 +315,10 @@ class ProgressionManager extends EventEmitter {
 
 // Backwards Compat //
 const init = (client) => {
-    global.Progression = new ProgressionManager(client);
-    return global.Progression;
+	client ??= PLX;
+	if (!client) throw new Error("Progression can't initialize without a client");
+	global.Progression = new ProgressionManager(client);
+	return global.Progression;
 }
 //////////////////////
 
