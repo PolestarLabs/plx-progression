@@ -1,0 +1,25 @@
+{
+  "name": "plx-progression",
+  "version": "0.0.1",
+  "description": "Pollux Progression Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolestarLabs/plx-progression.git"
+  },
+  "author": "Flicky",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/PolestarLabs/plx-progression/issues"
+  },
+  "homepage": "https://github.com/PolestarLabs/plx-progression#readme",
+  "dependencies": {
+    "date-fns": "^2.25.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
